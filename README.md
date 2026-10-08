@@ -4,13 +4,15 @@ An AI assistant that helps with therapy-related problems, with a Libyan Arabic (
 
 ## Project Structure
 
+```
 Sanad_AI/
 ├── data/
-│ ├── raw/ # Original, unmodified source data
-│ └── processed/ # Cleaned data split into train and validation sets
-├── fastapi/ # FastAPI app that serves the model over HTTP
-├── src/ # Multi-tool agent code
+│   ├── raw/          # Original, unmodified source data
+│   └── processed/    # Cleaned data split into train and validation sets
+├── fastapi/          # FastAPI app that serves the model over HTTP
+├── src/              # Multi-tool agent code
 └── README.md
+```
 
 
 - **`data/raw/`**: Original data as collected. Not modified.
